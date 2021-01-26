@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+    <style>
+        div.relative{
+            position:relative;
+             height: 200px;
+           width: 700px;
+           background-color:grey;
+           border:2px solid grey;
+           
+        }
+        div.absolute{
+            position:absolute;
+            width:700px;
+            height:25px;
+            top:160px;
+            background-color:rgb(250, 251, 252);
+        }
+        
+        .absolute2{
+            position:absolute;
+            height: 120px;
+            width: 120px;
+            top:30px;
+            left:290px;
+             background-color: #555;
+            border-radius: 50%;
+        }
+        div.absolute3{
+            position:absolute;
+            text-align:center;
+            font-size:45px;
+            font-family:'Lucida Sans';
+            width:350px;
+            height:60px;
+            top:135px;
+            left:175px;
+            background-color:rgb(240, 240, 15);
+        }
+        img{
+            border-radius:50%;
+        }
+        .address{
+            text-align:center;
+            padding:5px;
+            border-bottom: 1px solid rgb(119, 109, 109);
+            margin: 0 645px 0 0;
+        }
+        /* Create two equal columns that floats next to each other */
+      .column {
+  float: left;
+  width: 24.6%;
+  padding: 10px;
+  height: 300px; 
+  text-align:justify;/* Should be removed. Only for demonstration */
+          }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.head{
+    text-align:center;
+}
+.short{
+    line-height:0.2;
+}
+.light{
+    color:rgb(99, 90, 90);
+}
+
+    </style>
+</head>
+<body>
+    <div class='relative'>
+     <div class='absolute'></div>
+     
+     <img class='absolute2' src="ani.jpg" alt="" width="110" height="110">
+
+     <div class='absolute3'>ANIRUTHAN S</div>
+    </div> 
+    <div class='address'>Aniruthan Avenue, ANI Complex 99999|99999|contact@the ani group.com|www.TNG.com</div>
+    <div class="row">
+        <div class="column">
+            <pre><h2 class='light'><i class="fas fa-id-badge"></i> Profile</h2></pre>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur illo eaque vitae eius pariatur voluptate possimus. Qui voluptas repellendus nostrum quos alias odio libero, illum consectetur! Inventore odio doloribus modi.</p>
+            <div class='short'>
+            <pre><h2 class='light'><i class="fas fa-palette"></i> Skills</h2></pre>
+            <p class='head'>Technical Skills</p>
+            <p>Javascript</p>
+            <p>CSS</p>
+            <p>HTML</p>
+            <p>React</p>
+            <p>Redux</p>
+            <p>Mongo</p>
+            <p>Deployment</p>
+            <p class='head'>Additional Skills</p>
+            <p>Project Management</p>
+            <p>Recruitment</p>
+            <p>Business Development</p>
+            <p>Editing</p>
+            <p>Fundraising</p>
+            </div>
+            <pre><h2 class='light'><i class="fas fa-briefcase"></i> Work Experience</h2></pre>
+            <pre><b>Event Manager</b>               03/2014-02/2017 <p>C3 Presents, Washington DC</p></pre>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut tenetur quas suscipit aliquid facilis, impe sit itaque aspernatur perferendis dolor vetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorem eligendi quos quis ex nostrum doloribus reprehenderit ea adipisci! Sint consequatur ex eaque, aliquam neque ipsum iusto perferendis cum ratione!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus modi inventore dolore quod ipsam, vero cup nihil neque?</li>
+            </ul>
+        </div>
+        <div class="column">
+          <pre><h2 class='light'><i class="fas fa-briefcase"></i> Work experience</h2></pre>
+          <p>Gui & Barbain Elder Housing Los ANgeles</p>
+          <ul>
+              <li>Arranging presentations and patch deck</li>
+              <li>Designing a pR plan and establishing important focus points.</li>
+              <li>Designing, creating and managing content across multiple communication platforms.</li>
+              <li>Building relationships with key media players.</li>
+            </ul>
+           <pre><h2 class='light'><i class="fas fa-book-reader"></i> Education</h2></pre>
+           <pre><b>Engineering Immersion</b>          11/2018 - 06/2018</pre>
+           <p>Thinkful Chicago, IL</p>
+           <p>Lorem ipsum dolor sit amet consectetur ad? Quia, velit fugit eos minus vero adipisci modi est assumenda blanditiis? Repellat, similique odio?</p>
+           <ul>
+               <li>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum voluptate accusantium non. Eos necessitatibus nihil at, corporis, aspernatur ratione accusantium in qui vero et tempore esse quam officia nobis quas?
+               </li>
+               <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, veniam. Laboriosam adipisci asperiores error mollitia nam sint assumenda minima facere, nostrum veritatis eum libero ratione natus tenetur soluta explicabo? Consequatur.</li>
+               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quo molestias debitis delectus molestiae vel exercitationem, animi repellendus consequatur! Quas cupiditate harum nihil quia in deserunt saepe numquam quo id!</li>
+
+            </ul>
+            <pre><b>BA, English</b>                   09/2001 - 09/2005</pre>
+            <p>University of California, Los Angeles</p>
+        
+        
+        </div>
+      </div>
+   
+</body>
+</html>
